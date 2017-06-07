@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    android:orientation="vertical"
+    tools:context="com.rm39951.demointent.LoginActivity">
+
+    <EditText
+        style="@style/inputs"
+        android:hint="@string/login_hint"
+        android:id="@+id/etLogin"/>
+
+    <EditText
+        style="@style/inputs_senha"
+        android:hint="@string/senha_hint"
+        android:id="@+id/etSenha"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conectar"
+        android:id="@+id/btnConectar"/>
+    <TextView
+        style="@style/inputs_click"
+        android:text="@string/novo_usuario"
+        android:id="@+id/tvNewUser"
+        android:clickable="true"
+        android:textColor="@drawable/link"/>
+</LinearLayout>

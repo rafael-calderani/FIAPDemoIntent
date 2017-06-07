@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    tools:context="com.rm39951.demointent.NewUserActivity"
+    android:orientation="vertical">
+
+    <EditText
+        style="@style/inputs"
+        android:id="@+id/etUserName"
+        android:hint="@string/login_hint"/>
+    <EditText
+        style="@style/inputs"
+        android:id="@+id/etNome"
+        android:hint="Digite seu Nome"/>
+    <EditText
+        style="@style/inputs"
+        android:id="@+id/etSenha"
+        android:hint="@string/senha_hint"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar"
+        android:id="@+id/btnCreateUser"/>
+</LinearLayout>
