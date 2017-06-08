@@ -17,7 +17,7 @@
         android:id="@+id/etNome"
         android:hint="Digite seu Nome"/>
     <EditText
-        style="@style/inputs"
+        style="@style/inputs_senha"
         android:id="@+id/etSenha"
         android:hint="@string/senha_hint"/>
     <Button
